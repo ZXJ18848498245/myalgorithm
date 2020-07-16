@@ -66,7 +66,7 @@ public class CircleSingleLinkedList {
             }
             helper = helper.getNext();
         }
-        //移动到要报数的那个小孩
+        //移动到开始要报数的那个小孩
         for (int j =0;j<startNo-1;j++){
             first=first.getNext();
             helper = helper.getNext();
@@ -87,6 +87,8 @@ public class CircleSingleLinkedList {
             helper.setNext(first);
         }
         System.out.printf("最后留在圈里的小孩%d",first.getNo());
+        String s =new String();
+
 
     }
 }
