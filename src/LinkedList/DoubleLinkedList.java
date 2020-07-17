@@ -98,7 +98,7 @@ public class DoubleLinkedList {
         //判断flag
         if (flag){
             temp.pre.next = temp.next;
-            if (temp.next!=null)
+            if (temp.next!=null)//如果是最后一个节点就不执行，否则会报空指针异常
                 temp.next.pre = temp.pre;
         }else {
             System.out.println("节点不存在");

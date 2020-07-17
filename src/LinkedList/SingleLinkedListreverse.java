@@ -21,6 +21,5 @@ public class SingleLinkedListreverse {
             temp = next;
         }
         head.next = reverseHead.next;
-
     }
 }
