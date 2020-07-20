@@ -1,5 +1,5 @@
 package Sort;
-
+//快速排序
 public class quickSort {
     public static void quick(int[] arr,int left,int right){
         int r = right;
