@@ -25,7 +25,7 @@ public class Queue8 {
         }else {
             for (int i =0 ;i< max; i++){
                 array[n] = i;
-                if (judge(n)){
+                if (judge(n)){//判断是否冲突
                     check(n+1);
                 }
             }
